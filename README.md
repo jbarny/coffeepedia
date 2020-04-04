@@ -1,4 +1,4 @@
-![coffee](project_2/coffee.png)
+![coffee](coffee.png)
 ## Welcome to Coffeepeida!
 
 ### Background
@@ -29,4 +29,4 @@ You will find stream charts that display global Arabica Production and Robusta P
 You will find coffee hunters who put the data together here! 
 
 ## Enjoy your coffee!
-![smiley](project_2/smiley.png)
+![smiley](smiley.png)
