@@ -87,7 +87,7 @@ function createBubbles(bubblesData, selectedAttr) {
     });
 }
 
-d3.csv("../static/data/data_2019.csv").then(function(data, err){
+d3.csv("/data/data_2019.csv").then(function(data, err){
     if (err) throw err;
 
     // draw bubbles
@@ -121,4 +121,3 @@ d3.csv("../static/data/data_2019.csv").then(function(data, err){
     }).catch(function(error) {
         console.log(error);
 });
-
