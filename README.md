@@ -1,5 +1,5 @@
 ![coffee](coffee.png)
-## Welcome to Coffeepeida!
+## Welcome to Coffeepedia!
 
 ### Background
 Coffee is one of the most commonly consumed commodities across the globe. You can easily find a line of people in a coffee shop in the morning starting their day with cup of coffee. You can find coffee almost anywhere--coffee shops, restaurants, grocery stores, and offices. People often meet over coffee--it helps build relationships and brings people together. But, what do we really know about coffee? Where is it grown? Who consumes the most? What flavor and aroma attributes make different coffees unique? Look no further, you will find your answers here!
