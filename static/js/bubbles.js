@@ -25,10 +25,6 @@ var svg = d3.select("#bubbles")
     .attr("height", svgHeight)
     .attr("class", "bubble");
 
-// create bubblesGroup to realign plot positioning
-// var bubblesGroup = svg.append("g")
-//     .attr("transform", `translate(${margin.left}, ${margin.top})`);
-
 // initialize plot with arabica
 var selectedAttr = "Arabica_Production";
 
@@ -91,7 +87,7 @@ function createBubbles(bubblesData, selectedAttr) {
     });
 }
 
-d3.csv("../static/data/data_2019.csv").then(function(data, err){
+d3.csv("/data/data_2019.csv").then(function(data, err){
     if (err) throw err;
 
     // draw bubbles
@@ -102,9 +98,6 @@ d3.csv("../static/data/data_2019.csv").then(function(data, err){
 
         // find clicked button
         button = d3.select(this);
-
-        // update class to active
-        //button.classed("active", true);
 
         var attr = d3.select(this).attr("id");
         if (attr !== selectedAttr) {
